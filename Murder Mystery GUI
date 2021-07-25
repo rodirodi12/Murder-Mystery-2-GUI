@@ -24,7 +24,7 @@ window4:Toggle("Coin Farm + God",false,function(omg)
             getgenv().CoinFarm = omg
 if getgenv().CoinFarm then
     getgenv().TpDelay = 2
-loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/6cbdf3cd3182d2889d2af766da9a2286/raw/3b3872fa207a24a6e78fc4b5a07c37cead7842df/casgg"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rodirodi12/Murder-Mystery-2-GUI/main/Murder%20Mystery%202%20Coin"))()
 end
 end)
 window4:Button("God Mode", function()
