@@ -184,6 +184,12 @@ window3:Button("Ninja", function()
     Target:Fire(string_1);
 end)
 
+window3:Button("Dab", function()
+    local string_1 = "dab";
+    local Target = game:GetService("ReplicatedStorage").PlayEmote;
+    Target:Fire(string_1);
+end)
+
 window3:Button("Zombie", function()
     local string_1 = "zombie";
     local Target = game:GetService("ReplicatedStorage").PlayEmote;
