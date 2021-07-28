@@ -178,6 +178,12 @@ window3:Button("Sit", function()
     Target:Fire(string_1);
 end)
 
+window3:Button("Ninja", function()
+    local string_1 = "ninja";
+    local Target = game:GetService("ReplicatedStorage").PlayEmote;
+    Target:Fire(string_1);
+end)
+
 window3:Button("Zombie", function()
     local string_1 = "zombie";
     local Target = game:GetService("ReplicatedStorage").PlayEmote;
@@ -191,8 +197,8 @@ window3:Button("Dab", function()
     Target:Fire(string_1);
 end)
 
-window3:Button("Ninja", function()
-    local string_1 = "ninja";
+window3:Button("Floss", function()
+    local string_1 = "floss";
     local Target = game:GetService("ReplicatedStorage").PlayEmote;
     Target:Fire(string_1);
 end)
