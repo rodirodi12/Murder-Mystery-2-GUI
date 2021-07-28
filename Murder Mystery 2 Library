@@ -165,7 +165,7 @@ function library:Window(name)
 
     Window.Name = "Window"
     Window.Parent = Header
-    Window.BackgroundColor3 = Color3.fromRGB(47, 54, 64)
+    Window.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
     Window.BorderColor3 = Color3.fromRGB(47, 54, 64)
     Window.Position = UDim2.new(0, 0, 0, 0)
     Window.Size = UDim2.new(0, 207, 0, 33)
