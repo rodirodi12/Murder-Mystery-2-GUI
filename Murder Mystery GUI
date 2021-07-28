@@ -163,7 +163,7 @@ espSheriff()
 espMurderer()
 end)
 window5:Label("FE Scripts", Color3.fromRGB(127, 150, 180))
-window2:Label("LocalPlayer Settings", Color3.fromRGB(127, 150, 180))
+window2:Label("LocalPlayer Settings", Color3.fromRGB(255, 255, 255))
 window5:Toggle("FE Spam Sounds",false, function(State1)
         getgenv().hit = State1
         while wait() do
