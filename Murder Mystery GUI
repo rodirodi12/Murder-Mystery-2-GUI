@@ -64,7 +64,12 @@ window4:Button("Invisible God Mode",function()
     game.Players.LocalPlayer.Character.Head:Destroy()
 end)
     
-window6:Label("deneme", Color3.fromRGB(127, 150, 180))
+window6:Label("Version: 1.0.0", Color3.fromRGB(127, 150, 180))
+window6:Label("Script Credits", Color3.fromRGB(127, 150, 180))
+window6:Label("Copy Discord Link", Color3.fromRGB(127, 150, 180))
+window6:Label("Save Gui Layout", Color3.fromRGB(127, 150, 180))
+window6:Label("Load Saved Gui Layout", Color3.fromRGB(127, 150, 180))
+window6:Label("Reset Gui Layout", Color3.fromRGB(127, 150, 180))
 
 window2:Toggle("Noclip", false, function(bool)
     getgenv().trinkets = bool
