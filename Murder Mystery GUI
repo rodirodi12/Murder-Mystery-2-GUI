@@ -225,7 +225,7 @@ window3:Button("Zen", function()
     local Target = game:GetService("ReplicatedStorage").PlayEmote;
     Target:Fire(string_1);
 end)
-window1:Label("Snowball Tool", Color3.fromRGB(127, 150, 180))
+window1:Label("Snowball Tool", Color3.fromRGB(255, 255, 255))
 
 window1:Button("Break + Lag Server", function()
 game:GetService('RunService').RenderStepped:connect(function()
