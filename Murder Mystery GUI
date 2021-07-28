@@ -1,9 +1,10 @@
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/rodirodi12/Murder-Mystery-2-GUI/main/Murder%20Mystery%202%20Library"))()
 local window1 = library:Window("Scripts")
 local window2 = library:Window("LocalPlayer")
-local window3 = library:Window("Emotes")
+local window3 = library:Window("Free Emotes")
 local window4 = library:Window("Crates - Farm")
 local window5 = library:Window("Miscellaneous")
+local window6 = library:Window("Other")
 
 
 window2:Box("Walkspeed", function(value, focuslost)
