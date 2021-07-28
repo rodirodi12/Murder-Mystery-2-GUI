@@ -425,6 +425,6 @@ end)
 
 library:Keybind("Tab")
 game:GetService("StarterGui"):SetCore("SendNotification",{     
-Title = "Important!",     
-Text = "Ameicaa Was Here",
-Button1 = "LMAO",Button2 = "OMG",     Duration = 20, })
+Title = "Succesfull!",     
+Text = "Hile Açıldı...",
+Button1 = "YE",Button2 = "YEE",     Duration = 20, })
