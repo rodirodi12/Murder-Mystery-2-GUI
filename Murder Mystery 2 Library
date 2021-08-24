@@ -152,7 +152,7 @@ function library:Window(name)
     Minimise.ZIndex = 7 + zindex
     Minimise.Font = Enum.Font.SourceSansLight
     Minimise.Text = "_"
-    Minimise.TextColor3 = Color3.fromRGB(35, 35, 35)
+    Minimise.TextColor3 = Color3.fromRGB(255, 255, 255)
     Minimise.TextSize = 20.000
     Minimise.MouseButton1Up:connect(function()
         Window.Visible = not Window.Visible
